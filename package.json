@@ -4,7 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-      "build": "netlify-lambda build functions"
+    "build": "netlify-lambda build functions",
+    "serve": "netlify-lambda serve functions"
   },
   "repository": {
     "type": "git",
@@ -18,6 +19,8 @@
   },
   "homepage": "https://github.com/stefanjudis/8-bit-revolution-tut#readme",
   "dependencies": {
-    "netlify-lambda": "^1.4.3"
+    "dotenv": "^7.0.0",
+    "netlify-lambda": "^1.4.3",
+    "twilio": "^3.29.2"
   }
 }
