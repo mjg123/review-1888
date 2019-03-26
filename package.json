@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "build": "echo \"Building your new static site!\""
+      "build": "netlify-lambda build functions"
   },
   "repository": {
     "type": "git",
@@ -16,5 +16,8 @@
   "bugs": {
     "url": "https://github.com/stefanjudis/8-bit-revolution-tut/issues"
   },
-  "homepage": "https://github.com/stefanjudis/8-bit-revolution-tut#readme"
+  "homepage": "https://github.com/stefanjudis/8-bit-revolution-tut#readme",
+  "dependencies": {
+    "netlify-lambda": "^1.4.3"
+  }
 }
