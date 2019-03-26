@@ -1,0 +1,20 @@
+{
+  "name": "8-bit-revolution-tut",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "echo \"Building your new static site!\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/stefanjudis/8-bit-revolution-tut.git"
+  },
+  "keywords": [],
+  "author": "stefan judis <sjudis@twilio.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/stefanjudis/8-bit-revolution-tut/issues"
+  },
+  "homepage": "https://github.com/stefanjudis/8-bit-revolution-tut#readme"
+}
